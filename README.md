@@ -5,7 +5,7 @@ So this Repo is all the things i tried with FreeRTOS i did made a Roadmap so tha
 Even though its kinda my journal i am trying to be professional and like organized so that all the READMEs look same like similar headings obv diff content  
 
 These are the topics i shortlisted and they will sub topics inside them.
-'''
+```
 FreeRTOS_ESP32/
   1_Tasks/
   2_Communication/
@@ -13,4 +13,4 @@ FreeRTOS_ESP32/
   4_Advanced/
   5_Benchmarking/
   6_Projects/
-'''
+```
