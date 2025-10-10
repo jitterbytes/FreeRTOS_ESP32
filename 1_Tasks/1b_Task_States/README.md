@@ -4,7 +4,7 @@
 Understand how tasks can be:  
 - Suspended and resumed using vTaskSuspend() and vTaskResume()
 - Deleted dynamically using vTaskDelete()
-- Observed in action using logging or LED behavior
+- Observed in action using logging and LED behavior
 
 > For Demonstration  
 > Task 1 -> Blink Task  
@@ -71,9 +71,10 @@ Understand how tasks can be:
   ```
 
 ## 👀 Observations & Experiments
-- Increased the Priority of Blink Task but did not really affected anything as the task is very simple and short.
-- The UART printing was printing as programmed.
-
+- vTaskDelay is the one that says to a task i am done for now do not schedule me again for this ticks amount of time
+```
+**Tasks voluntarily gives up CPU** -> Scheduler says Okay you are blocked for this much then who is ready to run -> It picks another Ready Task and switches context -> This is **FreeRTOS Multitasking**
+```
 
 
 
