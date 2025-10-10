@@ -8,13 +8,13 @@ Demonstrate multitasking in action.
 
 ## 🛠 Steps
 - Initialize the header files
-  ~
+  ```
   #include <stdio.h>
   #include "freertos/FreeRTOS.h"
   #include "freertos/task.h"
   #include "driver/gpio.h"
   #include "esp_log.h"
-  ~
+  ```
 3. Create Task 2
 4. Intialize those Tasks in the int main()  
 and see the result.
