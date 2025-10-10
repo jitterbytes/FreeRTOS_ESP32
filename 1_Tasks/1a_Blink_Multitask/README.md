@@ -16,11 +16,11 @@ Demonstrate multitasking in action.
   #include "esp_log.h"
   ```
 - Define Led Pin
-  ```
+  ```c
   #define LED 23   // Led -> GPIO 23
   ```
 - Define Blink Task Function
-  ```
+  ```c
   // Task 1 -> Blink led at 1Hz
   void blink_task(void *pvParameter){
       gpio_reset_pin(LED);
@@ -35,7 +35,7 @@ Demonstrate multitasking in action.
   }
   ```
 - Define UART Task Function
-  ```
+  ```c
   // Task 2 -> Printing via UART
   void uart_task(void *pvParameter){
       while(1)
@@ -46,7 +46,7 @@ Demonstrate multitasking in action.
   }
   ``` 
 - In app_main() Create both the Function and give to FreeRTOS Scheduler
-  ```
+  ```c
   void app_main(void)
   {
       // Creating Blink Task 
