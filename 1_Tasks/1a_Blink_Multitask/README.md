@@ -6,7 +6,7 @@ Create 2 FreeRTOS task that will run in parallel
 - Task 2: Print messages over UART
 Demonstrate multitasking in action.
 
-## 🛠 Steps
+## 🛠 Steps | 📝 Code 
 - Initialize the header files
   ```c
   #include <stdio.h>
@@ -67,9 +67,10 @@ Demonstrate multitasking in action.
   ```
 
 ## 👀 Observations & Experiments
+- Increased the Priority of Blink Task but did not really affected anything as the task is very simple and short.
+- The UART printing was printing as programmed.
 
 
-## 📝 Notes / Decoding the Code 
 
 
 
