@@ -74,7 +74,7 @@ Understand how tasks can be:
 - vTaskDelay is the one that says to a task i am done for now do not schedule me again for this ticks amount of time
 ```
 Tasks voluntarily gives up CPU ->
-Scheduler says Okay you are blocked for this much then who is ready to run ->
+Scheduler says Okay you are blocked for this much time then who else is ready to run ->
 It picks another Ready Task and switches context ->
 This is FreeRTOS Multitasking
 ```
