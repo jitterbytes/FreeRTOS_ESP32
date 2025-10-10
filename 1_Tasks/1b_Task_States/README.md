@@ -6,9 +6,9 @@ Understand how tasks can be:
 - Deleted dynamically using vTaskDelete()
 - Observed in action using logging or LED behavior
 
-> For Demonstration
-> Task 1 -> Blink Task
-> Task 2 -> Controller Task (which will perform task states method on the Blink Task)
+> For Demonstration  
+> Task 1 -> Blink Task  
+> Task 2 -> Controller Task (which will perform task states method on the Blink Task)  
 
 ## 🛠 Steps | 📝 Code 
 - Initialize the header files
