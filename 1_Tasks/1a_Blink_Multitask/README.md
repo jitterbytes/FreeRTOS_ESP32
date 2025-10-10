@@ -8,7 +8,7 @@ Demonstrate multitasking in action.
 
 ## 🛠 Steps
 - Initialize the header files
-  ```
+  ```c
   #include <stdio.h>
   #include "freertos/FreeRTOS.h"
   #include "freertos/task.h"
