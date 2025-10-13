@@ -82,7 +82,7 @@ Understand how tasks can be:
 
 ## 👀 Observations & Experiments
 - vTaskDelay is the one that says to a task i am done for now do not schedule me again for this ticks amount of time
-- Also Controller Task is given more priority as it is controlling the blink task  
+- Also Controller Task is given more priority as it will overwriting the blink task  
 ```
 Tasks voluntarily gives up CPU ->
 Scheduler says Okay you are blocked for this much time then who else is ready to run ->
