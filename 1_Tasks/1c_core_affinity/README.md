@@ -5,7 +5,7 @@ Understand how to assign FreeRTOS tasks to specific CPU cores (Core 0 or Core 1)
 and observe how tasks run concurrently on both cores.
 
 > For Demonstration  
-> Task 1 -> Blink Task (pinned to Core 0)
+> Task 1 -> Blink Task (pinned to Core 0)  
 > Task 2 -> UART Print Task (pinned to Core 1)  
 
 ## 🛠 Steps | 📝 Code 
