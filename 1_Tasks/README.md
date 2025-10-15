@@ -17,4 +17,4 @@ To achieve concurrency, all pieces of code are organized into **Tasks**.
 
 Here, all three tasks run **concurrently** (or appear to run **simultaneously**). In reality, the FreeRTOS **scheduler** is sitting behind them, time-slicing and quickly switching between tasks. To us, it looks like everything is happening at the same time.  
 
-Next, let’s create our own tasks and mess around with them.  
+Next, let’s create our own tasks and understand the fundamentals.  
