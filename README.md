@@ -1,10 +1,10 @@
 # FreeRTOS_ESP32
-Finally decided to get into FreeRTOS after delaying it for so long XD  
-So this Repo is all the things i tried with FreeRTOS i did made a Roadmap so that i can atleast touch all the concepts regarding FreeRTOS    
-**Do some experiments write some code see them in action is what my main motive i want to seee o_O**    
-Even though its kinda my journal i am trying to be professional and like organized so that all the READMEs look same like similar headings obv diff content    
+This repo is basically me understanding the fundamentals of FreeRTOS and experimenting them on a ESP32 Dev board.  
+It will feel like a workbook its me teaching myself I got Roadmap for myself using AI hopefully it will cover all the fundamentals included in FreeRTOS.  
 
-These are the topics i shortlisted and they will sub topics inside them.  
+I have placed multiple READMEs in sub directories so that i can write in those and i have tried to be descriptive as much as possible 
+
+These are the topics in the Roadmap were these and they all have sub directories 
 ```
 FreeRTOS_ESP32/
   1_Tasks/
