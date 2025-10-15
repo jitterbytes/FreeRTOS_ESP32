@@ -20,9 +20,8 @@ Here, all three tasks run **concurrently** (or appear to run **simultaneously**)
 Next, let’s create our own tasks and understand the fundamentals.  
 
 <details>
-  <summary>Chapter Summary</summary>
-## 📚 Experiments Overview
-
+<summary> View Chapter Summary </summary>
+**Experiments Overview**
 | Exp | Title | Concept Focus | Key Learnings |
 |:--:|:--|:--|:--|
 | **1a** | [Blink Multitask](./1a_blink_multitask/) | Task Creation & Scheduling | Create multiple tasks and observe time-sliced execution. |
