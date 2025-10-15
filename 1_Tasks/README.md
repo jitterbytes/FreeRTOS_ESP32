@@ -20,7 +20,7 @@ Here, all three tasks run **concurrently** (or appear to run **simultaneously**)
 Next, let’s create our own tasks and understand the fundamentals.  
 
 <details>
-  <summary>Click to expand</summary>
+  <summary>**Chapter Summary**</summary>
   
   This is the content that is hidden by default.
   It can contain regular Markdown, like **bold text** or a [link](https://example.com).
