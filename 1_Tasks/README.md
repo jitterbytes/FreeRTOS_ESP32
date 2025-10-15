@@ -30,4 +30,13 @@ Next, let’s create our own tasks and understand the fundamentals.
 | **1c** | [Core Affinity](./1c_core_affinity/) | Pin Tasks to CPU Cores | Learn to assign specific cores for deterministic behavior on ESP32. |
 | **1d** | [Task Notifications](./1d_task_notifications/) | Inter-Task Signaling | Implement fast, lightweight communication between tasks. |
 
+**Concepts Covered**
+- Task Creation (`xTaskCreate`, `xTaskCreatePinnedToCore`)
+- Task Scheduling (Equal Priority → Time-sliced)
+- Task Control (`vTaskSuspend`, `vTaskResume`, `vTaskDelete`)
+- Task Communication (via Direct Notifications)
+- Core Affinity & Dual-core Management (ESP32)
+- Task Handles & Priority Management
+
+Up Next - _**2_Communication**_
 </details>
