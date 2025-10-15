@@ -20,7 +20,8 @@ Here, all three tasks run **concurrently** (or appear to run **simultaneously**)
 Next, let’s create our own tasks and understand the fundamentals.  
 
 <details>
-<summary> View Chapter Summary </summary>  
+<summary>View Chapter Summary</summary>  
+  
 **Experiments Overview**  
 | Exp | Title | Concept Focus | Key Learnings |
 |:--:|:--|:--|:--|
