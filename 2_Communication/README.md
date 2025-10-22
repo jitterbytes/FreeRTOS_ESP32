@@ -8,7 +8,7 @@ More often tasks will need to:
 - **Coordinate Actions** - A button task signals a motor control task to start.
 - **Avoid Conflicts** - Two Task trying to write I2C or UART at the same time.
 
-> Doing this incorrectly can lead to **data corruption, race condition, or missed signals.** This is where we need Communication!!
+⚠️ Doing this incorrectly can lead to **data corruption, race condition, or missed signals.** This is where we need Communication!!
 
 **Core Concepts**  
 | Concept | Purpose | Explanation |
