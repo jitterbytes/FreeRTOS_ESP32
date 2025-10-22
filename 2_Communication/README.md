@@ -20,7 +20,7 @@ More often tasks will need to:
 | **Event Groups** | Multi-task synchronization | Task can wait for one or more events to happen. Think of it as waiting for multiple conditions before proceeding | 
 
 <details>
-<summary>View Chapter Summary</summary>  
+<summary>View Chapter Summary [Not yet updated]</summary>  
   
 **Experiments Overview**  
 | Exp | Title | Concept Focus | Key Learnings |
