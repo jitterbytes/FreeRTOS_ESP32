@@ -3,9 +3,9 @@
 ## 🎯 Objective
 Sending data between task using  a FreeRTOS Queue, enabling safe task-task communication.    
 
-> For Demonstration
-> Task 1 -> Producer Task: Sends incrementing number into a queue.
-> Task 2 -> Consumer Task: Receives number from the queue and prints them
+> For Demonstration  
+> Task 1 -> Producer Task: Sends incrementing number into a queue.  
+> Task 2 -> Consumer Task: Receives number from the queue and prints them.    
 
 ## 🛠 Steps | 📝 Code 
 - Initialize the header files
