@@ -1,10 +1,14 @@
 # FreeRTOS_ESP32
-This repo is basically me understanding the fundamentals of FreeRTOS and experimenting them on a ESP32 Dev board.  
-It will feel like a workbook its me teaching myself I got Roadmap for myself using AI hopefully it will cover all the fundamentals included in FreeRTOS.  
 
-I have placed multiple READMEs in sub directories so that i can write in those and i have tried to be descriptive as much as possible 
+This repository is for understanding the **fundamentals of FreeRTOS** and experimenting with each concept on an **ESP32 development board**.  
 
-These are the topics in the Roadmap were these and they all have sub directories 
+- **Board:** ESP32-WROOM Dev Board  
+- **Framework:** ESP-IDF v5.3.4 (VS Code Extension)  
+- **Purpose:** Each topic and subtopic includes its own `README.md`, written as notes while programming and exploring concepts.  
+
+---
+
+### 📘 Topics Covered
 ```
 FreeRTOS_ESP32/
   1_Tasks/
@@ -14,4 +18,13 @@ FreeRTOS_ESP32/
   5_Benchmarking/
   6_Projects/
 ```
-All the sub directories will have their indiviual READMEs in them easier for me to handle them. 
+Each folder focuses on one major FreeRTOS concept with hands-on examples and explanations.  
+
+---
+
+### ⚙️ How to Use  
+Only the **`main.c`** file is provided for each experiment to keep the repository clean and easy to follow.    
+To try any example:  
+1. Create a new ESP-IDF project in VS Code.  
+2. Replace its default `main.c` with the one from the desired folder.  
+3. Build and flash as usual.
