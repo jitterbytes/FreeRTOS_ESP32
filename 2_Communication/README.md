@@ -1,4 +1,4 @@
-# 1_Communication
+# 2_Communication
 This is the second concept in FreeRTOS: **"Communication"**.  
 
 ### **Why Communication Between Tasks??**  
@@ -12,7 +12,7 @@ More often tasks will need to:
 
 **Core Concepts**  
 | Concept | Purpose | Explanation |
-|:--:|:--|:--|
+|:--|:--|:--|
 | **Queue** | Task-to-Task data transfer | One task **posts** data, another **reads** |
 | **Binary Semaphore** | Simple signaling | Like a flag set by one task, cleared by another |
 | **Counting Semaphore** | Multiple resource management | Multiple copies of key. Tasks "take" a key to use a resource and "give" it back when done |
