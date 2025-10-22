@@ -1,4 +1,7 @@
 # FreeRTOS_ESP32
+![ESP-IDF](https://img.shields.io/badge/ESP--IDF-v5.3.4-blue)
+![Board](https://img.shields.io/badge/Board-ESP32--WROOM-green)
+![Status](https://img.shields.io/badge/Status-Learning%20In%20Progress-yellow)
 
 This repository is for understanding the **fundamentals of FreeRTOS** and experimenting with each concept on an **ESP32 development board**.  
 
