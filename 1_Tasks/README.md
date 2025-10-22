@@ -25,10 +25,10 @@ Next, let’s create our own tasks and understand the fundamentals.
 **Experiments Overview**  
 | Exp | Title | Concept Focus | Key Learnings |
 |:--:|:--|:--|:--|
-| **1a** | [Blink Multitask](./1a_blink_multitask/) | Task Creation & Scheduling | Create multiple tasks and observe time-sliced execution. |
-| **1b** | [Task States & Control](./1b_task_states/) | Suspend, Resume, Delete Tasks | Use Task Handles to manage task execution flow. |
+| **1a** | [Blink Multitask](./1a_Blink_Multitask/) | Task Creation & Scheduling | Create multiple tasks and observe time-sliced execution. |
+| **1b** | [Task States & Control](./1b_Task_States/) | Suspend, Resume, Delete Tasks | Use Task Handles to manage task execution flow. |
 | **1c** | [Core Affinity](./1c_core_affinity/) | Pin Tasks to CPU Cores | Learn to assign specific cores for deterministic behavior on ESP32. |
-| **1d** | [Task Notifications](./1d_task_notifications/) | Inter-Task Signaling | Implement fast, lightweight communication between tasks. |
+| **1d** | [Task Notifications](./1d_Task_Notifications/) | Inter-Task Signaling | Implement fast, lightweight communication between tasks. |
 
 **Concepts Covered**
 - Task Creation (`xTaskCreate`, `xTaskCreatePinnedToCore`)
