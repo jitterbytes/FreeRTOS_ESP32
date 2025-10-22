@@ -6,7 +6,6 @@ This repository is for understanding the **fundamentals of FreeRTOS** and experi
 - **Framework:** ESP-IDF v5.3.4 (VS Code Extension)  
 - **Purpose:** Each topic and subtopic includes its own `README.md`, written as notes while programming and exploring concepts.  
 
----
 
 ### 📘 Topics Covered
 ```
@@ -20,7 +19,6 @@ FreeRTOS_ESP32/
 ```
 Each folder focuses on one major FreeRTOS concept with hands-on examples and explanations.  
 
----
 
 ### ⚙️ How to Use  
 Only the **`main.c`** file is provided for each experiment to keep the repository clean and easy to follow.    
